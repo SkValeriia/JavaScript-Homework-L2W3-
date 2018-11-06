@@ -1,7 +1,9 @@
 // Implement function, that will return result after 10 second.
 
-console.log("Start timer!");
+  console.log("The FIRST stage");
 
 setTimeout(function() {
-  console.log("It's implement function!");
+  console.log("The THIRD stage");
 }, 10000);
+
+  console.log("The SECOND stage");
